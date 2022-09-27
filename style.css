@@ -54,7 +54,7 @@ button{
     padding-top: 10px;
 
 }
-.player1:hover, .player2:hover, .restart:hover, .gamesquare:hover{
+.player1:hover, .player2:hover, .restart:hover, .gamesquare:hover, #restart:hover{
     background: lightskyblue;
 }
 .gamesquare:hover{
