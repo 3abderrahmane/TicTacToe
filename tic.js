@@ -111,7 +111,7 @@ const gameController = (() => {
     }
     round++;
     displayController.setMessageElement(
-      `Player ${getCurrentPlayerSign()}'s turn`
+      `${getCurrentPlayerSign()}'s turn`
     );
   };
 
