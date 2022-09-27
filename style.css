@@ -1,0 +1,89 @@
+.box{
+    background: darkcyan;
+    margin: auto;
+    width: 90%;
+    height:700px;
+    border: double darkslategray 6px;
+    border-radius: 4%;
+}
+h2{
+    text-align: center;
+    font-style: italic;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 24px;
+    word-spacing:10px;
+    line-height: 60px;
+    background-color:blue;
+}
+button{
+    margin-bottom: 20px;
+}
+.players{
+    text-align: center;
+    width: 400px;
+    margin: auto;
+}
+.player1{
+    background-image: url(Lion.png);
+    margin-right: 40px;
+    width: 150px;
+    color:black;
+    font-size: 20px;
+    font-weight: bold;
+    border-radius: 15%;
+}
+.player2{
+    background-image: url(Alligator.png);
+    width: 150px;
+    color:yellow;
+    font-size: 20px;
+    font-weight: bold;
+    border-radius: 15%;
+}
+#restart, #message{
+    background: hotpink;
+    font-size: 20px;
+    width: 160px;
+    border-radius: 20%;
+}
+.restartDiv{
+    margin: auto;
+    margin-top: 10px;
+    background: rgb(48, 17, 221);
+    text-align: center;
+    padding-top: 10px;
+
+}
+.player1:hover, .player2:hover, .restart:hover, .gamesquare:hover{
+    background: lightskyblue;
+}
+.gamesquare:hover{
+    border-radius: 50%;
+}
+.game{
+    margin: auto;
+    height:400px;
+    width: 400px;
+    background: brown;
+    padding: 5px;
+    border: solid  white 2px ;
+    display: grid;
+    grid-template-columns:1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    justify-content: center;
+}
+.gamesquare{
+    background:cyan;
+    border: 2px solid blue;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+footer{
+    font-family: monospace;
+    text-align: center;
+    background: black;
+    color: beige;
+    position: relative;
+    bottom:10px;
+}
