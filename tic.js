@@ -65,7 +65,7 @@ const displayController = (() => {
     gameBoard.reset();
     gameController.reset();
     updateGameboard();
-    setMessageElement("Player Lion's turn");
+    setMessageElement("Lion's Turn");
   });
 
   const updateGameboard = () => {
@@ -78,7 +78,7 @@ const displayController = (() => {
     if (winner === "Draw") {
       setMessageElement("It's a draw!");
     } else {
-      setMessageElement(`Player ${winner} has won!`);
+      setMessageElement(`${winner} won!`);
       messageElement.style.color = "white";
       bigWinner.style.backgroundImage = `url(${winner}.png)`;
     }
